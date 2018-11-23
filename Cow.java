@@ -1,4 +1,15 @@
 class Cow //implements Animal 
 {     
-     //your code here
+     private String myType; mySound;
+     
+     public Cow() {
+       myType = "cow";
+       mySound = "Mooooooo!";
+     }
+     public String getType() {
+       return myType;
+     }
+     public String getSound() {
+       return mySound;
+     }
 }
